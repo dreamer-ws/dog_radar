@@ -1,0 +1,27 @@
+{
+  "networks": ["bsc"],
+  "pages": 1,
+  "page_size": 60,
+  "min_score": 60,
+  "max_age_minutes": null,
+  "min_liquidity_usd": 0,
+  "max_fdv_usd": null,
+  "enforce_quote_whitelist": true,
+  "quote_whitelist": ["SOL", "WETH", "ETH", "USDC", "USDT", "WBNB", "BNB", "DAI", "WSOL", "POL", "MATIC"],
+  "meme_keywords": [
+    "doge", "dog", "pepe", "shib", "shiba", "cat", "kitty", "meow", "frog", "moon",
+    "rocket", "elon", "musk", "trump", "biden", "ai", "gpt", "chad", "wojak", "ape",
+    "bear", "bull", "wif", "bonk", "ponke", "mog", "popcat", "neiro", "meme", "inu",
+    "coin", "toilet", "fart", "cum", "pump", "based", "sigma", "giga", "rizz"
+  ],
+  "db_path": "dog_discover.db",
+  "webhook_url": "https://api.telegram.org/bot",
+  "webhook_type": "telegram",
+  "telegram_bot_token": "",
+  "telegram_chat_id": "",
+  "watch": true,
+  "interval": 10,
+  "verbose": false,
+  "no_color": false,
+  "allow_cn_names": true
+}
